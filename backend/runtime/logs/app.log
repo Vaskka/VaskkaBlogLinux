@@ -1,0 +1,119 @@
+2018-02-27 04:17:24 [127.0.0.1][-][do790r47e4tfn0tits1v6f5eg4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\User' not found' in D:\Develop\Web\yii2\vendor\yiisoft\yii2\web\User.php:614
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-27 04:17:24 [127.0.0.1][-][do790r47e4tfn0tits1v6f5eg4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'do790r47e4tfn0tits1v6f5eg4'
+    '_csrf' => '5911ec28517a4db9cb04f0fbf17f2866725b788d4c0f58f7cfc3bc6daf24fbcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NrVozkYlnvcQh505LjmdIGOKT4TJyiX4\";}'
+    '_identity' => '745641f1575e0adb72e71da1fc90ff4fefda91a6b4430e7acaaa80f51ca16313a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"xg_VJMZYwYYGLviyIyIUEwuVzgPacN2h\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Users\\czm\\AppData\\Local\\Programs\\Python\\Python35;C:\\Users\\czm\\AppData\\Local\\Programs\\Python\\Python35\\Scripts;C:\\Python27\\;D:\\Develop\\Python\\;D:\\Develop\\Python\\Scripts\\;D:\\Develop\\Python\\Lib\\site-packages;D:\\Develop\\phpStudy\\PHPTutorial\\php\\php-5.6.27-nts;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\应用\\QuickTime\\QTSystem\\;C;\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Develop\\qt\\qt5.6\\5.6\\mingw49_32\\bin;C:\\Program Files\\Java\\jdk1.8.0_131\\bin;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\bin;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\lib;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\lib\\gcc\\x86_64-w64-mingw32\\4.8.1\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\lib\\gcc\\x86_64-w64-mingw32\\4.8.1\\include\\c++;C:\\Program Files\\nodejs;D:\\Develop\\Git\\cmd;D:\\应用\\putty\\;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\Users\\czm\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\czm\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/Develop/phpStudy/PHPTutorial/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2140'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54343'
+    'SCRIPT_FILENAME' => 'D:/Develop/Web/yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Develop/Web/yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/Develop/Web/yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'backend.hyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=do790r47e4tfn0tits1v6f5eg4; _csrf=5911ec28517a4db9cb04f0fbf17f2866725b788d4c0f58f7cfc3bc6daf24fbcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NrVozkYlnvcQh505LjmdIGOKT4TJyiX4%22%3B%7D; _identity=745641f1575e0adb72e71da1fc90ff4fefda91a6b4430e7acaaa80f51ca16313a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22xg_VJMZYwYYGLviyIyIUEwuVzgPacN2h%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_IF_NONE_MATCH' => '\"5a-5661e8c4e1e62\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Mon, 26 Feb 2018 14:44:32 GMT'
+    'HTTP_HOST' => 'backend.hyii2.com'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_REFERER' => 'http://backend.hyii2.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519705044.7286
+    'REQUEST_TIME' => 1519705044
+]
+2018-02-27 04:25:25 [127.0.0.1][-][do790r47e4tfn0tits1v6f5eg4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\User' not found' in D:\Develop\Web\yii2\vendor\yiisoft\yii2\web\User.php:614
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-27 04:25:25 [127.0.0.1][-][do790r47e4tfn0tits1v6f5eg4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'do790r47e4tfn0tits1v6f5eg4'
+    '_csrf' => '5911ec28517a4db9cb04f0fbf17f2866725b788d4c0f58f7cfc3bc6daf24fbcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NrVozkYlnvcQh505LjmdIGOKT4TJyiX4\";}'
+    '_identity' => '745641f1575e0adb72e71da1fc90ff4fefda91a6b4430e7acaaa80f51ca16313a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"xg_VJMZYwYYGLviyIyIUEwuVzgPacN2h\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Users\\czm\\AppData\\Local\\Programs\\Python\\Python35;C:\\Users\\czm\\AppData\\Local\\Programs\\Python\\Python35\\Scripts;C:\\Python27\\;D:\\Develop\\Python\\;D:\\Develop\\Python\\Scripts\\;D:\\Develop\\Python\\Lib\\site-packages;D:\\Develop\\phpStudy\\PHPTutorial\\php\\php-5.6.27-nts;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\应用\\QuickTime\\QTSystem\\;C;\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Develop\\qt\\qt5.6\\5.6\\mingw49_32\\bin;C:\\Program Files\\Java\\jdk1.8.0_131\\bin;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\bin;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\lib;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\lib\\gcc\\x86_64-w64-mingw32\\4.8.1\\include;D:\\Develop\\C++\\Dev-Cpp\\MinGW64\\lib\\gcc\\x86_64-w64-mingw32\\4.8.1\\include\\c++;C:\\Program Files\\nodejs;D:\\Develop\\Git\\cmd;D:\\应用\\putty\\;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\Users\\czm\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\czm\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/Develop/phpStudy/PHPTutorial/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2156'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54427'
+    'SCRIPT_FILENAME' => 'D:/Develop/Web/yii2/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Develop/Web/yii2/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/Develop/Web/yii2/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'backend.hyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=do790r47e4tfn0tits1v6f5eg4; _csrf=5911ec28517a4db9cb04f0fbf17f2866725b788d4c0f58f7cfc3bc6daf24fbcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NrVozkYlnvcQh505LjmdIGOKT4TJyiX4%22%3B%7D; _identity=745641f1575e0adb72e71da1fc90ff4fefda91a6b4430e7acaaa80f51ca16313a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22xg_VJMZYwYYGLviyIyIUEwuVzgPacN2h%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_IF_NONE_MATCH' => '\"5a-5661e8c4e1e62\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Mon, 26 Feb 2018 14:44:32 GMT'
+    'HTTP_HOST' => 'backend.hyii2.com'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519705525.7503
+    'REQUEST_TIME' => 1519705525
+]
