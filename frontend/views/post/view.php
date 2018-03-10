@@ -43,9 +43,11 @@ $this -> params['breadcrumbs'][] = $this -> title;
 				<h1>Never Stop!</h1>
 			</div>
 			<div class="panel-body">
-				<button class="btn btn-success btn-block" onclick="javascrtpt:window.location.href='/post/create'">
-					<?= Yii::t('common', 'WritePost') ?>
-				</button>
+				<?php if (Yii::$app->user->identity->username == Yii::$app->params['adminUserName']): ?>
+					<button class="btn btn-success btn-block" onclick="javascrtpt:window.location.href='/post/create'">
+						<?= Yii::t('common', 'WritePost') ?>
+					</button>
+				<?php endif ?>
 			</div>
 			<div class="panel-body">
 					<?= HotWidget::widget(); ?>
