@@ -5,4 +5,5 @@ return [
     'user.passwordResetTokenExpire' => 3600,
     'upload_url' => 'http://www.vaskka.com/',
     'default_label_img' => '/image/default/default_label_img.jpg',
+    'adminUserName' => 'Vaskka',
 ];
