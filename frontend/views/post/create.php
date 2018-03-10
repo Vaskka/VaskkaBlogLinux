@@ -29,9 +29,7 @@ $this -> params['breadcrumbs'][] = $this->title;
 			<?=$form -> field($model, 'cat_id') -> dropDownList($cat) ?>
 			
 			<!-- 选择封面图 -->
-			<?=$form->field($model, 'label_img') -> widget('common\widgets\file_upload\FileUpload',['config'=>[
-				'domain-url' => 'http://www.vaskka.com/',
-				]]) ?>
+			<?=$form->field($model, 'label_img') -> widget('common\widgets\file_upload\FileUpload',['config'=>[]]) ?>
 
 			<!--编辑正文-->
 			<?= $form->field($model, 'content') -> widget('common\widgets\ueditor\Ueditor',[
@@ -43,7 +41,12 @@ $this -> params['breadcrumbs'][] = $this->title;
 			<?=$form -> field($model, 'tag') -> widget('common\widgets\tags\TagWidget') ?>
 
  			<div class="form-group">
- 				<?=Html::submitButton(Yii::t('common', 'Release'), ['class' => 'btn btn-success'])?>
+ 				<?php if (Yii::$app->user->identity->username == Yii::$app->params['adminUserName']): ?>
+ 					<?=Html::submitButton(Yii::t('common', 'Release'), ['class' => 'btn btn-success'])?>
+ 				<?php else: ?>
+ 					<div class="alert alert-info">账户权限不能发布文章哦</div>
+ 				<?php endif ?>
+
  			</div>
 
 			<?php $form = ActiveForm::end() ?>
@@ -57,9 +60,11 @@ $this -> params['breadcrumbs'][] = $this->title;
 				<h1>Never Stop!</h1>
 			</div>
 			<div class="panel-body">
+				<?php if (Yii::$app->user->identity->username == Yii::$app->params['adminUserName']): ?>
 				<button class="btn btn-success btn-block" onclick="javascrtpt:window.location.href='/post/create'">
 					<?= Yii::t('common', 'WritePost') ?>
 				</button>
+				<?php endif ?>
 			</div>
 			<div class="panel-body">
 					<?= HotWidget::widget(); ?>
