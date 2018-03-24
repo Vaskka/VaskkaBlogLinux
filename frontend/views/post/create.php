@@ -29,7 +29,9 @@ $this -> params['breadcrumbs'][] = $this->title;
 			<?=$form -> field($model, 'cat_id') -> dropDownList($cat) ?>
 			
 			<!-- 选择封面图 -->
-			<?=$form->field($model, 'label_img') -> widget('common\widgets\file_upload\FileUpload',['config'=>[]]) ?>
+			<?=$form->field($model, 'label_img') -> widget('common\widgets\file_upload\FileUpload',['config'=>[
+				'domain_url' => 'http://www.vaskka.com/'
+					]]) ?>
 
 			<!--编辑正文-->
 			<?= $form->field($model, 'content') -> widget('common\widgets\ueditor\Ueditor',[
