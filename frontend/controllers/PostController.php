@@ -45,8 +45,7 @@ class PostController extends BaseController
         ];
     }
 
-
-	public function actions()
+    public function actions()
     {
         return [
             'upload'=>[
